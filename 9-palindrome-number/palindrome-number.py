@@ -3,9 +3,8 @@ class Solution(object):
         num=n
         result=0
         while num>0:
-            id=num%10
-            result=(result*10)+id
+            digit=num%10
+            result=(result*10)+digit
             num=num//10
-        return n==result
-        
+        return n==result        
         
